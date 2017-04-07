@@ -1,0 +1,10 @@
+/* AUTOMATICALLY GENERATED ON Fri Jun 12 16:24:45 PDT 2015*/
+/* DO NOT EDIT */
+
+keystore "file:/E:/My Stuff/Web Design/DigicaApplet/applet/exampleraystore", "jks";
+
+grant signedBy "susan" {
+  permission javax.sound.sampled.AudioPermission "record";
+  permission java.io.FilePermission "<<ALL FILES>>", "read, write, delete, execute";
+};
+

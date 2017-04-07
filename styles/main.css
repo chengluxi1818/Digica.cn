@@ -1,0 +1,140 @@
+@charset "utf-8";
+@import url("../webfonts/Plamo/stylesheet.css");
+
+
+
+
+body {
+	margin: 0px;
+	color: rgba(21,21,21,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: rgba(255,255,255,1.00);
+}
+#wrapper {
+	width: 100%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255,1.00);
+	background-image: url(../background.png);
+}
+#top {
+    overflow: hidden;
+}
+#hero img {
+	max-width: 100%;
+}
+
+h1 {
+	font-size: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Plamo;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 10px;
+}
+h2 {
+	margin-top: 0.5em;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+
+figure {
+	display: block;
+	width: 420px;
+}
+figure img {
+	padding: 10px;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+}
+
+figcaption {
+	font-size: 0.875em;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: 0.5em;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.floatright {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+footer {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding-right: 0px;
+	text-align: right;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #FF944C;
+
+}
+a:hover, a:active, a:focus {
+	color: #7F3300;
+	text-decoration: underline;
+}
+#mainnav ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	width: 100%;
+}
+#main  {
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-family: istok-web;
+	font-style: normal;
+	font-weight: 500;
+}
+#mainnav a:hover , #mainnav a:focus, #mainnav a.thispage{
+	text-decoration: none;
+	background-color: rgba(210,93,0,1.00);
+}
+h3 {
+	background-color: #333333;
+	color: #FFFFFF;
+	font-family: istok-web;
+	font-style: normal;
+	font-weight: 400;
+	width: 60px;
+	text-align: center;
+}
